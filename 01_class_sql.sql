@@ -15,5 +15,7 @@ CREATE TABLE create_student(
     enrollment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 
 );
+
 ALTER TABLE create_student
 ADD COLUMN batch_name VARCHAR(50) DEFAULT 'WEB DEV BATCH 2';
+-- ADD COLUMN batch_two VARCHAR(50) DEFAULT 'WEB DEV BATCH 3';
